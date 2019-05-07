@@ -14,7 +14,7 @@ kubectl apply -f ./
 
 ### Check if the wordpress is up and running
 ```shell
-curl $NODE_IP:$NODE_PORT:31080/wp-admin/install.php?step=1
+curl $NODE_IP:31080/wp-admin/install.php?step=1
 ```
 
 More details please check http://www.showerlee.com/archives/2336
